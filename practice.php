@@ -20,3 +20,15 @@ echo "\n";
 $tech_boost = "tech";
 $tech_boost .= " boost";
 echo $tech_boost;
+
+echo "\n";
+
+// 変数の始めが数字だったので削除
+$calendar = [  //かっこを変更
+  "January" => "1月", "February" => "2月", "March" => "3月", "April" => "4月", 
+  "May" => "5月", "June" => "6月", "July" => "7月", "August" => "8月", 
+  "September" => "9月", "October" => "10月", "November" => "11月", "December" => "12月"
+];
+
+// 12月を表示する、ダブルクオート追加
+echo $calendar["December"];
